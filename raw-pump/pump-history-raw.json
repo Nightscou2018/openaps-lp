@@ -1,5 +1,96 @@
 [
   {
+    "programmed": 0.6, 
+    "_type": "Bolus", 
+    "_description": "Bolus 2016-06-24T21:03:24 head[8], body[0] op[0x01]", 
+    "timestamp": "2016-06-24T21:03:24", 
+    "_body": "", 
+    "appended": [
+      {
+        "_type": "UnabsorbedInsulinBolus", 
+        "_description": "UnabsorbedInsulinBolus unknown head[32], body[0] op[0x5c]", 
+        "data": [
+          {
+            "amount": 1.5, 
+            "age": 72
+          }, 
+          {
+            "amount": 1.1, 
+            "age": 182
+          }, 
+          {
+            "amount": 0.6, 
+            "age": 292
+          }, 
+          {
+            "amount": 0.1, 
+            "age": 392
+          }, 
+          {
+            "amount": 0.125, 
+            "age": 402
+          }, 
+          {
+            "amount": 0.125, 
+            "age": 412
+          }, 
+          {
+            "amount": 0.125, 
+            "age": 422
+          }, 
+          {
+            "amount": 0.125, 
+            "age": 432
+          }, 
+          {
+            "amount": 0.125, 
+            "age": 442
+          }, 
+          {
+            "amount": 0.875, 
+            "age": 452
+          }
+        ], 
+        "_body": "", 
+        "_head": "5c203c48042cb604182414048814059214059c1405a61405b01405ba1423c414", 
+        "_date": ""
+      }
+    ], 
+    "_head": "0100180018003500", 
+    "amount": 0.6, 
+    "unabsorbed": 1.325, 
+    "duration": 0, 
+    "type": "normal", 
+    "_date": "5883551810"
+  }, 
+  {
+    "_type": "BolusWizard", 
+    "bg": 142, 
+    "bg_target_high": 110, 
+    "_description": "BolusWizard 2016-06-24T21:03:23 head[2], body[15] op[0x5b]", 
+    "timestamp": "2016-06-24T21:03:23", 
+    "_body": "06500064506e10001800003500186e", 
+    "_head": "5b8e", 
+    "unabsorbed_insulin_total": 1.325, 
+    "correction_estimate": 0.4, 
+    "_date": "5783151810", 
+    "bolus_estimate": 0.6, 
+    "bg_target_low": 110, 
+    "carb_ratio": 10.0, 
+    "food_estimate": 0.6, 
+    "carb_input": 6, 
+    "sensitivity": 80
+  }, 
+  {
+    "_type": "CalBGForPH", 
+    "_description": "CalBGForPH 2016-06-24T21:03:12 head[2], body[0] op[0x0a]", 
+    "timestamp": "2016-06-24T21:03:12", 
+    "_body": "", 
+    "_head": "0a8e", 
+    "amount": 142, 
+    "_date": "4c83351810"
+  }, 
+  {
     "programmed": 1.5, 
     "_type": "Bolus", 
     "_description": "Bolus 2016-06-24T19:58:25 head[8], body[0] op[0x01]", 
