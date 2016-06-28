@@ -1,5 +1,45 @@
 [
   {
+    "programmed": 0.525, 
+    "_type": "Bolus", 
+    "_description": "Bolus 2016-06-28T16:02:23 head[8], body[0] op[0x01]", 
+    "timestamp": "2016-06-28T16:02:23", 
+    "_body": "", 
+    "_head": "0100150015000000", 
+    "amount": 0.525, 
+    "unabsorbed": 0.0, 
+    "duration": 0, 
+    "type": "normal", 
+    "_date": "5782501c10"
+  }, 
+  {
+    "_type": "BolusWizard", 
+    "bg": 199, 
+    "bg_target_high": 110, 
+    "_description": "BolusWizard 2016-06-28T16:02:23 head[2], body[15] op[0x5b]", 
+    "timestamp": "2016-06-28T16:02:23", 
+    "_body": "05500064506e2c001400000000406e", 
+    "_head": "5bc7", 
+    "unabsorbed_insulin_total": 0.0, 
+    "correction_estimate": 1.1, 
+    "_date": "5782101c10", 
+    "bolus_estimate": 1.6, 
+    "bg_target_low": 110, 
+    "carb_ratio": 10.0, 
+    "food_estimate": 0.5, 
+    "carb_input": 5, 
+    "sensitivity": 80
+  }, 
+  {
+    "_type": "CalBGForPH", 
+    "_description": "CalBGForPH 2016-06-28T16:01:56 head[2], body[0] op[0x0a]", 
+    "timestamp": "2016-06-28T16:01:56", 
+    "_body": "", 
+    "_head": "0ac7", 
+    "amount": 199, 
+    "_date": "7881301c10"
+  }, 
+  {
     "_type": "BasalProfileStart", 
     "offset": 0, 
     "_description": "BasalProfileStart 2016-06-28T15:44:48 head[2], body[3] op[0x7b]", 
