@@ -1,5 +1,41 @@
 [
   {
+    "_type": "LowReservoir", 
+    "_description": "LowReservoir 2016-06-27T19:16:27 head[2], body[0] op[0x34]", 
+    "timestamp": "2016-06-27T19:16:27", 
+    "_body": "", 
+    "_head": "3400", 
+    "amount": 0.0, 
+    "_date": "5b90131b10"
+  }, 
+  {
+    "_type": "BasalProfileStart", 
+    "offset": 28800000, 
+    "_description": "BasalProfileStart 2016-06-27T19:16:27 head[2], body[3] op[0x7b]", 
+    "timestamp": "2016-06-27T19:16:27", 
+    "_body": "102200", 
+    "profile_index": 2, 
+    "_head": "7b02", 
+    "rate": 0.85, 
+    "_date": "5b90131b10"
+  }, 
+  {
+    "_type": "Battery", 
+    "_description": "Battery 2016-06-27T19:16:27 head[2], body[0] op[0x1a]", 
+    "timestamp": "2016-06-27T19:16:27", 
+    "_body": "", 
+    "_head": "1a01", 
+    "_date": "5b90131b10"
+  }, 
+  {
+    "_type": "Battery", 
+    "_description": "Battery 2016-06-27T19:14:40 head[2], body[0] op[0x1a]", 
+    "timestamp": "2016-06-27T19:14:40", 
+    "_body": "", 
+    "_head": "1a00", 
+    "_date": "688e131b10"
+  }, 
+  {
     "programmed": 0.5, 
     "_type": "Bolus", 
     "_description": "Bolus 2016-06-27T18:13:04 head[8], body[0] op[0x01]", 
