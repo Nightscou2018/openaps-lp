@@ -1,1 +1,42 @@
-[]
+[
+  {
+    "created_at": "2016-06-27T19:14:40-07:00", 
+    "_type": "Battery", 
+    "_description": "Battery 2016-06-27T19:14:40 head[2], body[0] op[0x1a]", 
+    "timestamp": "2016-06-27T19:14:40-07:00", 
+    "notes": "Battery 523 ", 
+    "_head": "1a00", 
+    "enteredBy": "openaps://medtronic/523", 
+    "_date": "688e131b10", 
+    "eventType": "Note", 
+    "_body": "", 
+    "medtronic": "mm://openaps/mm-format-ns-treatments/Battery"
+  }, 
+  {
+    "created_at": "2016-06-27T19:16:27-07:00", 
+    "_type": "LowReservoir", 
+    "_description": "LowReservoir 2016-06-27T19:16:27 head[2], body[0] op[0x34]", 
+    "timestamp": "2016-06-27T19:16:27-07:00", 
+    "notes": "LowReservoir 523 ", 
+    "_head": "3400", 
+    "enteredBy": "openaps://medtronic/523", 
+    "amount": 0, 
+    "_date": "5b90131b10", 
+    "eventType": "Note", 
+    "_body": "", 
+    "medtronic": "mm://openaps/mm-format-ns-treatments/LowReservoir"
+  }, 
+  {
+    "created_at": "2016-06-27T19:16:27-07:00", 
+    "_type": "Battery", 
+    "_description": "Battery 2016-06-27T19:16:27 head[2], body[0] op[0x1a]", 
+    "timestamp": "2016-06-27T19:16:27-07:00", 
+    "notes": "Battery 523 ", 
+    "_head": "1a01", 
+    "enteredBy": "openaps://medtronic/523", 
+    "_date": "5b90131b10", 
+    "eventType": "Note", 
+    "_body": "", 
+    "medtronic": "mm://openaps/mm-format-ns-treatments/Battery"
+  }
+]
