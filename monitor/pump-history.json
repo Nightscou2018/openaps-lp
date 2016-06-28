@@ -1,5 +1,18 @@
 [
   {
+    "programmed": 0.5, 
+    "_type": "Bolus", 
+    "_description": "Bolus 2016-06-27T18:13:04 head[8], body[0] op[0x01]", 
+    "timestamp": "2016-06-27T18:13:04-07:00", 
+    "_body": "", 
+    "_head": "0100140014000000", 
+    "amount": 0.5, 
+    "unabsorbed": 0.0, 
+    "duration": 0, 
+    "type": "normal", 
+    "_date": "448d527b10"
+  }, 
+  {
     "_type": "BasalProfileStart", 
     "_description": "BasalProfileStart 2016-06-27T16:33:41 head[2], body[3] op[0x7b]", 
     "timestamp": "2016-06-27T16:33:41-07:00", 
