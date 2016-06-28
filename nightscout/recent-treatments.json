@@ -1,47 +1,16 @@
 [
   {
-    "_type": "Prime", 
-    "_description": "Prime 2016-06-27T19:32:24 head[5], body[0] op[0x03]", 
-    "notes": "Prime 523 ", 
-    "timestamp": "2016-06-27T19:32:24-07:00", 
+    "_type": "ChangeTempBasalType", 
+    "temp": "absolute", 
+    "_description": "ChangeTempBasalType 2016-06-27T20:02:10 head[2], body[0] op[0x62]", 
+    "notes": "ChangeTempBasalType 523 ", 
+    "timestamp": "2016-06-27T20:02:10-07:00", 
     "_body": "", 
-    "_head": "0300030003", 
+    "_head": "6200", 
     "enteredBy": "openaps://medtronic/523", 
-    "amount": 0.3, 
-    "medtronic": "mm://openaps/mm-format-ns-treatments/Prime", 
+    "medtronic": "mm://openaps/mm-format-ns-treatments/ChangeTempBasalType", 
     "eventType": "Note", 
-    "fixed": 0.3, 
-    "type": "fixed", 
-    "created_at": "2016-06-27T19:32:24-07:00", 
-    "_date": "58a0131b10"
-  }, 
-  {
-    "_type": "Prime", 
-    "_description": "Prime 2016-06-27T19:31:42 head[5], body[0] op[0x03]", 
-    "notes": "Prime 523 ", 
-    "timestamp": "2016-06-27T19:31:42-07:00", 
-    "_body": "", 
-    "_head": "0300000000", 
-    "enteredBy": "openaps://medtronic/523", 
-    "amount": 0, 
-    "medtronic": "mm://openaps/mm-format-ns-treatments/Prime", 
-    "eventType": "Note", 
-    "fixed": 0, 
-    "type": "manual", 
-    "created_at": "2016-06-27T19:31:42-07:00", 
-    "_date": "6a9f331b10"
-  }, 
-  {
-    "_type": "Rewind", 
-    "_description": "Rewind 2016-06-27T19:28:11 head[2], body[0] op[0x21]", 
-    "notes": "Rewind 523 ", 
-    "timestamp": "2016-06-27T19:28:11-07:00", 
-    "_body": "", 
-    "_head": "2100", 
-    "enteredBy": "openaps://medtronic/523", 
-    "medtronic": "mm://openaps/mm-format-ns-treatments/Rewind", 
-    "eventType": "Note", 
-    "created_at": "2016-06-27T19:28:11-07:00", 
-    "_date": "4b9c131b10"
+    "created_at": "2016-06-27T20:02:10-07:00", 
+    "_date": "4a82141b10"
   }
 ]
