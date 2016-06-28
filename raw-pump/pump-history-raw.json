@@ -1,5 +1,16 @@
 [
   {
+    "_type": "BasalProfileStart", 
+    "offset": 0, 
+    "_description": "BasalProfileStart 2016-06-28T02:29:49 head[2], body[3] op[0x7b]", 
+    "timestamp": "2016-06-28T02:29:49", 
+    "_body": "000c00", 
+    "profile_index": 0, 
+    "_head": "7b00", 
+    "rate": 0.3, 
+    "_date": "719d021c10"
+  }, 
+  {
     "_type": "TempBasalDuration", 
     "duration (min)": 30, 
     "_description": "TempBasalDuration 2016-06-28T01:59:48 head[2], body[0] op[0x16]", 
@@ -808,18 +819,5 @@
     "_body": "", 
     "_head": "1a00", 
     "_date": "688e131b10"
-  }, 
-  {
-    "programmed": 0.5, 
-    "_type": "Bolus", 
-    "_description": "Bolus 2016-06-27T18:13:04 head[8], body[0] op[0x01]", 
-    "timestamp": "2016-06-27T18:13:04", 
-    "_body": "", 
-    "_head": "0100140014000000", 
-    "amount": 0.5, 
-    "unabsorbed": 0.0, 
-    "duration": 0, 
-    "type": "normal", 
-    "_date": "448d527b10"
   }
 ]
