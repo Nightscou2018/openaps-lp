@@ -1,5 +1,14 @@
 [
   {
+    "_type": "ChangeTempBasalType", 
+    "temp": "absolute", 
+    "_description": "ChangeTempBasalType 2016-06-27T20:02:10 head[2], body[0] op[0x62]", 
+    "timestamp": "2016-06-27T20:02:10-07:00", 
+    "_body": "", 
+    "_head": "6200", 
+    "_date": "4a82141b10"
+  }, 
+  {
     "_type": "Prime", 
     "_description": "Prime 2016-06-27T19:32:24 head[5], body[0] op[0x03]", 
     "timestamp": "2016-06-27T19:32:24-07:00", 
@@ -123,13 +132,5 @@
     "_body": "", 
     "_head": "0c06", 
     "_date": "69a1101b10"
-  }, 
-  {
-    "_type": "AlarmPump", 
-    "_description": "AlarmPump 2016-06-27T11:53:00 head[4], body[0] op[0x06]", 
-    "timestamp": "2016-06-27T11:53:00-07:00", 
-    "_body": "", 
-    "_head": "060608d9", 
-    "_date": "40b54bbb10"
   }
 ]
