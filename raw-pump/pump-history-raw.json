@@ -2,6 +2,17 @@
   {
     "_type": "BasalProfileStart", 
     "offset": 0, 
+    "_description": "BasalProfileStart 2016-06-28T03:44:49 head[2], body[3] op[0x7b]", 
+    "timestamp": "2016-06-28T03:44:49", 
+    "_body": "000a00", 
+    "profile_index": 0, 
+    "_head": "7b00", 
+    "rate": 0.25, 
+    "_date": "71ac031c10"
+  }, 
+  {
+    "_type": "BasalProfileStart", 
+    "offset": 0, 
     "_description": "BasalProfileStart 2016-06-28T03:15:58 head[2], body[3] op[0x7b]", 
     "timestamp": "2016-06-28T03:15:58", 
     "_body": "000a00", 
@@ -831,90 +842,5 @@
     "_body": "", 
     "_head": "6200", 
     "_date": "4a82141b10"
-  }, 
-  {
-    "_type": "Prime", 
-    "type": "fixed", 
-    "_description": "Prime 2016-06-27T19:32:24 head[5], body[0] op[0x03]", 
-    "timestamp": "2016-06-27T19:32:24", 
-    "_body": "", 
-    "fixed": 0.3, 
-    "_head": "0300030003", 
-    "amount": 0.3, 
-    "_date": "58a0131b10"
-  }, 
-  {
-    "_type": "BasalProfileStart", 
-    "offset": 28800000, 
-    "_description": "BasalProfileStart 2016-06-27T19:32:35 head[2], body[3] op[0x7b]", 
-    "timestamp": "2016-06-27T19:32:35", 
-    "_body": "102200", 
-    "profile_index": 2, 
-    "_head": "7b02", 
-    "rate": 0.85, 
-    "_date": "63a0131b10"
-  }, 
-  {
-    "_type": "Prime", 
-    "type": "manual", 
-    "_description": "Prime 2016-06-27T19:31:42 head[5], body[0] op[0x03]", 
-    "timestamp": "2016-06-27T19:31:42", 
-    "_body": "", 
-    "fixed": 0.0, 
-    "_head": "0300000000", 
-    "amount": 0.0, 
-    "_date": "6a9f331b10"
-  }, 
-  {
-    "_type": "Rewind", 
-    "_description": "Rewind 2016-06-27T19:28:11 head[2], body[0] op[0x21]", 
-    "timestamp": "2016-06-27T19:28:11", 
-    "_body": "", 
-    "_head": "2100", 
-    "_date": "4b9c131b10"
-  }, 
-  {
-    "_type": "Rewind", 
-    "_description": "Rewind 2016-06-27T19:24:04 head[2], body[0] op[0x21]", 
-    "timestamp": "2016-06-27T19:24:04", 
-    "_body": "", 
-    "_head": "2100", 
-    "_date": "4498131b10"
-  }, 
-  {
-    "_type": "Rewind", 
-    "_description": "Rewind 2016-06-27T19:21:19 head[2], body[0] op[0x21]", 
-    "timestamp": "2016-06-27T19:21:19", 
-    "_body": "", 
-    "_head": "2100", 
-    "_date": "5395131b10"
-  }, 
-  {
-    "_type": "LowReservoir", 
-    "_description": "LowReservoir 2016-06-27T19:16:27 head[2], body[0] op[0x34]", 
-    "timestamp": "2016-06-27T19:16:27", 
-    "_body": "", 
-    "_head": "3400", 
-    "amount": 0.0, 
-    "_date": "5b90131b10"
-  }, 
-  {
-    "_type": "BasalProfileStart", 
-    "offset": 28800000, 
-    "_description": "BasalProfileStart 2016-06-27T19:16:27 head[2], body[3] op[0x7b]", 
-    "timestamp": "2016-06-27T19:16:27", 
-    "_body": "102200", 
-    "profile_index": 2, 
-    "_head": "7b02", 
-    "rate": 0.85, 
-    "_date": "5b90131b10"
-  }, 
-  {
-    "_type": "Battery", 
-    "_description": "Battery 2016-06-27T19:16:27 head[2], body[0] op[0x1a]", 
-    "timestamp": "2016-06-27T19:16:27", 
-    "_body": "", 
-    "_head": "1a01", 
-    "_date": "5b90131b10"
   }
 ]
