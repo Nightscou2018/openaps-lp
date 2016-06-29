@@ -1,13 +1,13 @@
 {
-  "bg": 185, 
+  "bg": 224, 
   "temp": "absolute", 
-  "snoozeBG": 93, 
+  "snoozeBG": 212, 
   "recieved": true, 
-  "rate": 0.0, 
-  "reason": "Eventual BG 93<110, setting -0.1U/hr", 
-  "eventualBG": 93, 
-  "timestamp": "2016-06-28T19:06:05.926047", 
+  "rate": 0.85, 
+  "reason": "Eventual BG 212>=110, temp 0<0.87U/hr", 
+  "eventualBG": 212, 
+  "timestamp": "2016-06-28T19:11:12.168074", 
   "duration": 30, 
-  "mealAssist": "Off: Carbs: undefined Boluses: undefined ISF: 80, Target: 110 Deviation: -92 BGI: 0", 
-  "tick": -21
+  "mealAssist": "Off: Carbs: undefined Boluses: undefined ISF: 80, Target: 110 Deviation: -12 BGI: 0", 
+  "tick": "+39"
 }
