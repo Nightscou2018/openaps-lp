@@ -1,24 +1,24 @@
 {
   "bg": 94, 
   "temp": "absolute", 
-  "snoozeBG": 63, 
-  "timestamp": "2016-07-01T00:41:06.392929", 
+  "snoozeBG": 69, 
+  "timestamp": "2016-07-01T00:46:10.247473", 
   "missing": [
     "duration", 
     "rate"
   ], 
-  "reason": "Eventual BG 63<115, setting -1.85U/hr, but 27m left and 0 ~ req 0U/hr: no action required", 
-  "eventualBG": 63, 
+  "reason": "Eventual BG 69<115, setting -1.55U/hr, but 22m left and 0 ~ req 0U/hr: no action required", 
+  "eventualBG": 69, 
   "error": "missing required input fields", 
   "input": {
-    "reason": "Eventual BG 63<115, setting -1.85U/hr, but 27m left and 0 ~ req 0U/hr: no action required", 
+    "reason": "Eventual BG 69<115, setting -1.55U/hr, but 22m left and 0 ~ req 0U/hr: no action required", 
     "bg": 94, 
-    "eventualBG": 63, 
+    "eventualBG": 69, 
     "temp": "absolute", 
-    "snoozeBG": 63, 
-    "mealAssist": "Off: Carbs: undefined Boluses: undefined ISF: 80, Target: 115 Deviation: -4 BGI: -0.36", 
-    "tick": "+1"
+    "snoozeBG": 69, 
+    "mealAssist": "Off: Carbs: undefined Boluses: undefined ISF: 80, Target: 115 Deviation: 1 BGI: -0.4", 
+    "tick": "+0"
   }, 
-  "mealAssist": "Off: Carbs: undefined Boluses: undefined ISF: 80, Target: 115 Deviation: -4 BGI: -0.36", 
-  "tick": "+1"
+  "mealAssist": "Off: Carbs: undefined Boluses: undefined ISF: 80, Target: 115 Deviation: 1 BGI: -0.4", 
+  "tick": "+0"
 }
