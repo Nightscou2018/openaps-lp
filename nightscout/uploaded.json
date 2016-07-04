@@ -1,0 +1,54 @@
+[
+  {
+    "_type": "CalBGForPH", 
+    "_description": "CalBGForPH 2016-07-04T20:33:26 head[2], body[0] op[0x0a]", 
+    "timestamp": "2016-07-04T20:33:26+02:00", 
+    "_body": "", 
+    "glucoseType": "Finger", 
+    "_head": "0a74", 
+    "enteredBy": "openaps://medtronic/523", 
+    "amount": 116, 
+    "_date": "5ae1346410", 
+    "eventType": "BG Check", 
+    "created_at": "2016-07-04T20:33:26+02:00", 
+    "medtronic": "mm://openaps/mm-format-ns-treatments/CalBGForPH", 
+    "glucose": 116
+  }, 
+  {
+    "created_at": "2016-07-04T19:39:22+02:00", 
+    "_type": "LowReservoir", 
+    "_description": "LowReservoir 2016-07-04T19:39:22 head[2], body[0] op[0x34]", 
+    "timestamp": "2016-07-04T19:39:22+02:00", 
+    "notes": "LowReservoir 523 ", 
+    "_head": "3496", 
+    "enteredBy": "openaps://medtronic/523", 
+    "amount": 15, 
+    "_date": "56e7130410", 
+    "eventType": "Note", 
+    "_body": "", 
+    "medtronic": "mm://openaps/mm-format-ns-treatments/LowReservoir"
+  }, 
+  {
+    "bolus": {
+      "programmed": 0.4, 
+      "_type": "Bolus", 
+      "_description": "Bolus 2016-07-04T19:25:11 head[8], body[0] op[0x01]", 
+      "timestamp": "2016-07-04T19:25:11+02:00", 
+      "_body": "", 
+      "_head": "0100100010000500", 
+      "amount": 0.4, 
+      "unabsorbed": 0.125, 
+      "duration": 0, 
+      "type": "normal", 
+      "_date": "4bd9536410"
+    }, 
+    "timestamp": "2016-07-04T19:25:11+02:00", 
+    "created_at": "2016-07-04T19:25:11+02:00", 
+    "enteredBy": "openaps://medtronic/523", 
+    "insulin": 0.4, 
+    "eventType": "Correction Bolus", 
+    "duration": 0, 
+    "notes": "Normal bolus (solo, no bolus wizard).\nProgrammed bolus 0.4\nDelivered bolus 0.4\nPercent delivered:  100%", 
+    "medtronic": "mm://openaps/mm-format-ns-treatments/Correction Bolus"
+  }
+]
