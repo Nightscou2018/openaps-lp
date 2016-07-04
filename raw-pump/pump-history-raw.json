@@ -1,5 +1,34 @@
 [
   {
+    "_type": "Sara6E", 
+    "_description": "Sara6E 2016-07-05T00:00:00 head[1], body[49] op[0x6e]", 
+    "timestamp": "2016-07-05T00:00:00", 
+    "_body": "0500a97474050000024a01e6530064110008000000300024001000030101000000000000000000a8c80000000000000000", 
+    "valid_date": "2016-07-04", 
+    "_head": "6e", 
+    "_date": "6490"
+  }, 
+  {
+    "_type": "ResultDailyTotal", 
+    "_description": "ResultDailyTotal 2016-07-05T00:00:00 head[5], body[3] op[0x07]", 
+    "timestamp": "2016-07-05T00:00:00", 
+    "_body": "000000", 
+    "valid_date": "2016-07-04", 
+    "_head": "070000024a", 
+    "_date": "6490"
+  }, 
+  {
+    "_type": "BasalProfileStart", 
+    "offset": 0, 
+    "_description": "BasalProfileStart 2016-07-05T00:00:00 head[2], body[3] op[0x7b]", 
+    "timestamp": "2016-07-05T00:00:00", 
+    "_body": "001c00", 
+    "profile_index": 0, 
+    "_head": "7b00", 
+    "rate": 0.7, 
+    "_date": "40c0000510"
+  }, 
+  {
     "_type": "Prime", 
     "type": "fixed", 
     "_description": "Prime 2016-07-04T22:26:55 head[5], body[0] op[0x03]", 
