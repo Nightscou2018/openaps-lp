@@ -1,5 +1,14 @@
 [
   {
+    "_type": "CalBGForPH", 
+    "_description": "CalBGForPH 2016-07-04T16:39:45 head[2], body[0] op[0x0a]", 
+    "timestamp": "2016-07-04T16:39:45+02:00", 
+    "_body": "", 
+    "_head": "0ac8", 
+    "amount": 200, 
+    "_date": "6de7300410"
+  }, 
+  {
     "_type": "Bolus", 
     "_description": "Bolus 2016-07-04T14:24:16 head[8], body[0] op[0x01]", 
     "timestamp": "2016-07-04T14:24:16+02:00", 
