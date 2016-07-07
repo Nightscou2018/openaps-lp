@@ -3,7 +3,7 @@
   "keypad_lock_status": 0, 
   "rf_enable": false, 
   "temp_basal": {
-    "type": "Percent", 
+    "type": "Units/hour", 
     "percent": 100
   }, 
   "low_reservoir_warn_type": 0, 
