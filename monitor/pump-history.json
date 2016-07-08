@@ -1,5 +1,14 @@
 [
   {
+    "_type": "LowReservoir", 
+    "_description": "LowReservoir 2016-07-08T19:52:00 head[2], body[0] op[0x34]", 
+    "timestamp": "2016-07-08T19:52:00+02:00", 
+    "_body": "", 
+    "_head": "3496", 
+    "amount": 15.0, 
+    "_date": "40f4130810"
+  }, 
+  {
     "_type": "TempBasalDuration", 
     "_description": "TempBasalDuration 2016-07-08T19:45:25 head[2], body[0] op[0x16]", 
     "timestamp": "2016-07-08T19:45:25+02:00", 
