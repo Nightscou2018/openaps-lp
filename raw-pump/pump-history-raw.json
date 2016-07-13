@@ -1,5 +1,24 @@
 [
   {
+    "_type": "TempBasalDuration", 
+    "duration (min)": 30, 
+    "_description": "TempBasalDuration 2016-07-12T17:47:36 head[2], body[0] op[0x16]", 
+    "timestamp": "2016-07-12T17:47:36", 
+    "_body": "", 
+    "_head": "1601", 
+    "_date": "64ef114c10"
+  }, 
+  {
+    "_type": "TempBasal", 
+    "temp": "absolute", 
+    "_description": "TempBasal 2016-07-12T17:47:36 head[2], body[1] op[0x33]", 
+    "timestamp": "2016-07-12T17:47:36", 
+    "_body": "00", 
+    "_head": "332c", 
+    "rate": 1.1, 
+    "_date": "64ef114c10"
+  }, 
+  {
     "_type": "Prime", 
     "type": "fixed", 
     "_description": "Prime 2016-07-12T14:12:11 head[5], body[0] op[0x03]", 
