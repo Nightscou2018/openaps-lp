@@ -2,6 +2,19 @@
   {
     "programmed": 2.0, 
     "_type": "Bolus", 
+    "_description": "Bolus 2016-07-14T09:09:40 head[8], body[0] op[0x01]", 
+    "timestamp": "2016-07-14T09:09:40+02:00", 
+    "_body": "", 
+    "_head": "0100500050005000", 
+    "amount": 2.0, 
+    "unabsorbed": 2.0, 
+    "duration": 0, 
+    "type": "normal", 
+    "_date": "68c9494e10"
+  }, 
+  {
+    "programmed": 2.0, 
+    "_type": "Bolus", 
     "_description": "Bolus 2016-07-14T09:06:35 head[8], body[0] op[0x01]", 
     "timestamp": "2016-07-14T09:06:35+02:00", 
     "_body": "", 
