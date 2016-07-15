@@ -7,35 +7,14 @@
     }, 
     "status": {
       "status": "normal", 
-      "timestamp": "2016-07-15T23:51:19.000Z", 
+      "timestamp": "2016-07-15T23:56:30.000Z", 
       "bolusing": false, 
       "suspended": false
     }, 
-    "reservoir": 111.375, 
-    "clock": "2016-07-15T16:50:10"
+    "reservoir": 111.175, 
+    "clock": "2016-07-15T16:55:09"
   }, 
   "openaps": {
-    "suggested": {
-      "bg": 144, 
-      "temp": "absolute", 
-      "snoozeBG": 199, 
-      "timestamp": "2016-07-15T23:51:02.000Z", 
-      "rate": 2.4, 
-      "reason": "Eventual BG 199>=130, adj. req. rate:2.6 to maxSafeBasal:2.4, temp 2<2.4U/hr", 
-      "eventualBG": 199, 
-      "duration": 30, 
-      "mealAssist": "Off: Carbs: undefined Boluses: undefined ISF: 80, Target: 125 Deviation: 10 BGI: 0.64", 
-      "tick": "+10"
-    }, 
-    "iob": {
-      "netbasalinsulin": -0.6, 
-      "timestamp": "2016-07-15T23:51:01.000Z", 
-      "activity": -0.0016, 
-      "basaliob": -0.558, 
-      "hightempinsulin": 0, 
-      "bolussnooze": 0, 
-      "iob": -0.558
-    }, 
     "enacted": {
       "bg": 144, 
       "temp": "absolute", 
