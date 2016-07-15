@@ -1,5 +1,14 @@
 [
   {
+    "_type": "ChangeMaxBasal", 
+    "_description": "ChangeMaxBasal 2016-07-14T18:36:56 head[2], body[0] op[0x2c]", 
+    "timestamp": "2016-07-14T18:36:56", 
+    "_body": "", 
+    "maxBasal": 4.0, 
+    "_head": "2ca0", 
+    "_date": "78e4120e10"
+  }, 
+  {
     "_type": "TempBasalDuration", 
     "duration (min)": 30, 
     "_description": "TempBasalDuration 2016-07-14T18:30:49 head[2], body[0] op[0x16]", 
