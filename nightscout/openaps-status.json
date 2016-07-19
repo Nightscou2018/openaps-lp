@@ -7,29 +7,27 @@
     }, 
     "status": {
       "status": "normal", 
-      "timestamp": "2016-07-19T02:41:14.000Z", 
+      "timestamp": "2016-07-19T02:46:15.000Z", 
       "bolusing": false, 
       "suspended": false
     }, 
-    "reservoir": 51.075, 
-    "clock": "2016-07-18T19:40:04"
+    "reservoir": 50.975, 
+    "clock": "2016-07-18T19:45:04"
   }, 
   "openaps": {
     "suggested": {
       "bg": 150, 
       "temp": "absolute", 
       "snoozeBG": 148, 
-      "timestamp": "2016-07-19T02:40:57.000Z", 
-      "rate": 1, 
-      "reason": "Eventual BG 148>=130, temp 0.8<1U/hr", 
+      "timestamp": "2016-07-19T02:46:00.000Z", 
+      "reason": "Eventual BG 148>=130, temp 1 >~ req 1U/hr", 
       "eventualBG": 148, 
-      "duration": 30, 
       "mealAssist": "Off: Carbs: undefined Boluses: undefined ISF: 80, Target: 125 Deviation: -2 BGI: 0", 
       "tick": "+0"
     }, 
     "iob": {
       "netbasalinsulin": 0, 
-      "timestamp": "2016-07-19T02:40:56.000Z", 
+      "timestamp": "2016-07-19T02:45:59.000Z", 
       "activity": 0, 
       "basaliob": 0, 
       "hightempinsulin": 0, 
@@ -39,13 +37,24 @@
     "enacted": {
       "bg": 150, 
       "temp": "absolute", 
+      "missing": [
+        "duration", 
+        "rate"
+      ], 
+      "timestamp": "2016-07-19T02:46:04.000Z", 
       "snoozeBG": 148, 
-      "recieved": true, 
-      "reason": "Eventual BG 148>=130, temp 0.8<1U/hr", 
-      "rate": 1, 
+      "reason": "Eventual BG 148>=130, temp 1 >~ req 1U/hr", 
       "eventualBG": 148, 
-      "timestamp": "2016-07-19T02:41:03.000Z", 
-      "duration": 30, 
+      "error": "missing required input fields", 
+      "input": {
+        "bg": 150, 
+        "temp": "absolute", 
+        "snoozeBG": 148, 
+        "reason": "Eventual BG 148>=130, temp 1 >~ req 1U/hr", 
+        "eventualBG": 148, 
+        "mealAssist": "Off: Carbs: undefined Boluses: undefined ISF: 80, Target: 125 Deviation: -2 BGI: 0", 
+        "tick": "+0"
+      }, 
       "mealAssist": "Off: Carbs: undefined Boluses: undefined ISF: 80, Target: 125 Deviation: -2 BGI: 0", 
       "tick": "+0"
     }
