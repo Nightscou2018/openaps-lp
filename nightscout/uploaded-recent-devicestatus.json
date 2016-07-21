@@ -1,7 +1,7 @@
 [
   {
     "device": "openaps://openaps-lp", 
-    "created_at": "2016-07-21T07:37:21.137Z", 
+    "created_at": "2016-07-21T07:42:56.115Z", 
     "pump": {
       "battery": {
         "status": "normal", 
@@ -9,28 +9,28 @@
       }, 
       "status": {
         "status": "normal", 
-        "timestamp": "2016-07-21T07:36:44.000Z", 
+        "timestamp": "2016-07-21T07:42:00.000Z", 
         "bolusing": false, 
         "suspended": false
       }, 
-      "reservoir": 7.225, 
-      "clock": "2016-07-21T00:35:07"
+      "reservoir": 7.15, 
+      "clock": "2016-07-21T00:40:08"
     }, 
-    "_id": "57907bb16b2cc50b0046183a", 
+    "_id": "57907d006b2cc50b0046183b", 
     "openaps": {
       "suggested": [
         {
-          "msg": "BG data is too old, or clock set incorrectly Wed Jul 20 2016 23:24:05 GMT-0700 (PDT) vs Thu Jul 21 2016 00:36:19 GMT-0700 (PDT)"
+          "msg": "BG data is too old, or clock set incorrectly Wed Jul 20 2016 23:24:05 GMT-0700 (PDT) vs Thu Jul 21 2016 00:41:35 GMT-0700 (PDT)"
         }
       ], 
       "iob": {
-        "netbasalinsulin": 2, 
-        "timestamp": "2016-07-21T07:36:18.000Z", 
-        "activity": 0.0074, 
-        "basaliob": 1.751, 
-        "hightempinsulin": 2, 
+        "netbasalinsulin": 2.05, 
+        "timestamp": "2016-07-21T07:41:34.000Z", 
+        "activity": 0.0083, 
+        "basaliob": 1.759, 
+        "hightempinsulin": 2.05, 
         "bolussnooze": 0, 
-        "iob": 1.751
+        "iob": 1.759
       }, 
       "enacted": {
         "bg": 177, 
