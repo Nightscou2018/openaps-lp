@@ -3,39 +3,18 @@
   "pump": {
     "battery": {
       "status": "normal", 
-      "voltage": 1.27
+      "voltage": 1.28
     }, 
     "status": {
       "status": "normal", 
-      "timestamp": "2016-07-26T18:56:51.000Z", 
+      "timestamp": "2016-07-26T19:02:00.000Z", 
       "bolusing": false, 
       "suspended": false
     }, 
     "reservoir": 86.05, 
-    "clock": "2016-07-26T11:55:03"
+    "clock": "2016-07-26T12:00:03"
   }, 
   "openaps": {
-    "suggested": {
-      "bg": 138, 
-      "temp": "absolute", 
-      "snoozeBG": 90, 
-      "timestamp": "2016-07-26T18:56:22.000Z", 
-      "rate": 0, 
-      "reason": "Eventual BG 90<120, setting -0.95U/hr", 
-      "eventualBG": 90, 
-      "duration": 30, 
-      "mealAssist": "Off: Carbs: undefined Boluses: undefined ISF: 80, Target: 125 Deviation: -26 BGI: -0.36", 
-      "tick": -7
-    }, 
-    "iob": {
-      "netbasalinsulin": 0.3, 
-      "timestamp": "2016-07-26T18:56:21.000Z", 
-      "activity": 0.0009, 
-      "basaliob": 0.278, 
-      "hightempinsulin": 0.4, 
-      "bolussnooze": 0, 
-      "iob": 0.278
-    }, 
     "enacted": {
       "bg": 138, 
       "temp": "absolute", 
