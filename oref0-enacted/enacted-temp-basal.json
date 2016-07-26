@@ -1,24 +1,13 @@
 {
-  "bg": 122, 
+  "bg": 120, 
   "temp": "absolute", 
-  "snoozeBG": 120, 
-  "timestamp": "2016-07-26T05:56:34.961231", 
-  "missing": [
-    "duration", 
-    "rate"
-  ], 
-  "reason": "Eventual BG 120>120 but Avg. Delta -4.00 < Exp. Delta 0.1, temp 0.675 ~ req 0.68U/hr", 
-  "eventualBG": 120, 
-  "error": "missing required input fields", 
-  "input": {
-    "reason": "Eventual BG 120>120 but Avg. Delta -4.00 < Exp. Delta 0.1, temp 0.675 ~ req 0.68U/hr", 
-    "bg": 122, 
-    "eventualBG": 120, 
-    "temp": "absolute", 
-    "snoozeBG": 120, 
-    "mealAssist": "Off: Carbs: undefined Boluses: undefined ISF: 80, Target: 125 Deviation: -14 BGI: 0.04", 
-    "tick": -4
-  }, 
-  "mealAssist": "Off: Carbs: undefined Boluses: undefined ISF: 80, Target: 125 Deviation: -14 BGI: 0.04", 
-  "tick": -4
+  "snoozeBG": 123, 
+  "recieved": true, 
+  "rate": 0.675, 
+  "reason": "Eventual BG 123>120 but Avg. Delta -2.00 < Exp. Delta 0.2; setting current basal of 0.68 as temp", 
+  "eventualBG": 123, 
+  "timestamp": "2016-07-26T06:06:42.558328", 
+  "duration": 30, 
+  "mealAssist": "Off: Carbs: undefined Boluses: undefined ISF: 80, Target: 125 Deviation: -13 BGI: 0.12", 
+  "tick": "+0"
 }
