@@ -1,1 +1,82 @@
-[]
+[
+  {
+    "raw_rate": {
+      "_type": "TempBasal", 
+      "temp": "absolute", 
+      "_description": "TempBasal 2016-07-27T11:46:14 head[2], body[1] op[0x33]", 
+      "timestamp": "2016-07-27T11:46:14-07:00", 
+      "_body": "00", 
+      "_head": "330a", 
+      "rate": 0.25, 
+      "_date": "4eee0b5b10"
+    }, 
+    "timestamp": "2016-07-27T11:46:14-07:00", 
+    "raw_duration": {
+      "_type": "TempBasalDuration", 
+      "_description": "TempBasalDuration 2016-07-27T11:46:14 head[2], body[0] op[0x16]", 
+      "timestamp": "2016-07-27T11:46:14-07:00", 
+      "_body": "", 
+      "_head": "1601", 
+      "duration (min)": 30, 
+      "_date": "4eee0b5b10"
+    }, 
+    "created_at": "2016-07-27T11:46:14-07:00", 
+    "enteredBy": "openaps://medtronic/523", 
+    "rate": 0.25, 
+    "eventType": "Temp Basal", 
+    "duration": 30, 
+    "medtronic": "mm://openaps/mm-format-ns-treatments/Temp Basal", 
+    "absolute": 0.25
+  }, 
+  {
+    "_type": "CalBGForPH", 
+    "_description": "CalBGForPH 2016-07-27T11:29:59 head[2], body[0] op[0x0a]", 
+    "timestamp": "2016-07-27T11:29:59-07:00", 
+    "_body": "", 
+    "glucoseType": "Finger", 
+    "_head": "0a7a", 
+    "enteredBy": "openaps://medtronic/523", 
+    "amount": 122, 
+    "_date": "7bdd2b7b10", 
+    "eventType": "BG Check", 
+    "created_at": "2016-07-27T11:29:59-07:00", 
+    "medtronic": "mm://openaps/mm-format-ns-treatments/CalBGForPH", 
+    "glucose": 122
+  }, 
+  {
+    "created_at": "2016-07-27T11:29:16-07:00", 
+    "_type": "ChangeParadigmLinkID", 
+    "links": [
+      "c58c6e", 
+      "cba570", 
+      "af9b32"
+    ], 
+    "_description": "ChangeParadigmLinkID 2016-07-27T11:29:16 head[2], body[14] op[0x3c]", 
+    "timestamp": "2016-07-27T11:29:16-07:00", 
+    "_body": "3dc58c6ecba5703eaf9b32000000", 
+    "_head": "3c01", 
+    "enteredBy": "openaps://medtronic/523", 
+    "_date": "50dd0b1b10", 
+    "eventType": "Note", 
+    "notes": "ChangeParadigmLinkID 523 ", 
+    "medtronic": "mm://openaps/mm-format-ns-treatments/ChangeParadigmLinkID"
+  }, 
+  {
+    "created_at": "2016-07-27T11:28:07-07:00", 
+    "_type": "ChangeParadigmLinkID", 
+    "links": [
+      "c58c6e", 
+      "000000", 
+      "af9b32"
+    ], 
+    "_description": "ChangeParadigmLinkID 2016-07-27T11:28:07 head[2], body[14] op[0x3c]", 
+    "timestamp": "2016-07-27T11:28:07-07:00", 
+    "_body": "3dc58c6e0000003eaf9b32000000", 
+    "_head": "3c01", 
+    "enteredBy": "openaps://medtronic/523", 
+    "_date": "47dc0b1b10", 
+    "eventType": "Note", 
+    "notes": "ChangeParadigmLinkID 523 ", 
+    "medtronic": "mm://openaps/mm-format-ns-treatments/ChangeParadigmLinkID"
+  }
+]
