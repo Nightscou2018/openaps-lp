@@ -1,5 +1,61 @@
 [
   {
+    "_type": "BasalProfileStart", 
+    "offset": 28800000, 
+    "_description": "BasalProfileStart 2016-07-27T11:41:04 head[2], body[3] op[0x7b]", 
+    "timestamp": "2016-07-27T11:41:04", 
+    "_body": "102000", 
+    "profile_index": 2, 
+    "_head": "7b02", 
+    "rate": 0.8, 
+    "_date": "44e90b1b10"
+  }, 
+  {
+    "_type": "BGReceived", 
+    "link": "cba570", 
+    "_description": "BGReceived 2016-07-27T11:29:59 head[2], body[3] op[0x3f]", 
+    "timestamp": "2016-07-27T11:29:59", 
+    "_body": "cba570", 
+    "_head": "3f0f", 
+    "amount": 122, 
+    "_date": "7bdd4b7b10"
+  }, 
+  {
+    "_type": "CalBGForPH", 
+    "_description": "CalBGForPH 2016-07-27T11:29:59 head[2], body[0] op[0x0a]", 
+    "timestamp": "2016-07-27T11:29:59", 
+    "_body": "", 
+    "_head": "0a7a", 
+    "amount": 122, 
+    "_date": "7bdd2b7b10"
+  }, 
+  {
+    "_type": "ChangeParadigmLinkID", 
+    "links": [
+      "c58c6e", 
+      "cba570", 
+      "af9b32"
+    ], 
+    "_description": "ChangeParadigmLinkID 2016-07-27T11:29:16 head[2], body[14] op[0x3c]", 
+    "timestamp": "2016-07-27T11:29:16", 
+    "_body": "3dc58c6ecba5703eaf9b32000000", 
+    "_head": "3c01", 
+    "_date": "50dd0b1b10"
+  }, 
+  {
+    "_type": "ChangeParadigmLinkID", 
+    "links": [
+      "c58c6e", 
+      "000000", 
+      "af9b32"
+    ], 
+    "_description": "ChangeParadigmLinkID 2016-07-27T11:28:07 head[2], body[14] op[0x3c]", 
+    "timestamp": "2016-07-27T11:28:07", 
+    "_body": "3dc58c6e0000003eaf9b32000000", 
+    "_head": "3c01", 
+    "_date": "47dc0b1b10"
+  }, 
+  {
     "_type": "TempBasalDuration", 
     "duration (min)": 30, 
     "_description": "TempBasalDuration 2016-07-27T11:11:04 head[2], body[0] op[0x16]", 
