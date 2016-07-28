@@ -7,37 +7,47 @@
     }, 
     "status": {
       "status": "normal", 
-      "timestamp": "2016-07-28T15:01:59.000Z", 
+      "timestamp": "2016-07-28T15:07:06.000Z", 
       "bolusing": false, 
       "suspended": false
     }, 
     "reservoir": 49.825, 
-    "clock": "2016-07-28T08:00:02"
+    "clock": "2016-07-28T08:05:01"
   }, 
   "openaps": {
+    "suggested": {
+      "bg": 87, 
+      "temp": "absolute", 
+      "snoozeBG": 115, 
+      "timestamp": "2016-07-28T15:06:37.000Z", 
+      "rate": 0, 
+      "reason": "BG 87<90", 
+      "eventualBG": 115, 
+      "duration": 30, 
+      "mealAssist": "Off: Carbs: undefined Boluses: undefined ISF: 80, Target: 130 Deviation: -6 BGI: 0.96", 
+      "tick": -1
+    }, 
+    "iob": {
+      "netbasalinsulin": -0.5, 
+      "timestamp": "2016-07-28T15:06:36.000Z", 
+      "activity": -0.0024, 
+      "basaliob": -0.419, 
+      "hightempinsulin": 0, 
+      "bolussnooze": 0, 
+      "iob": -0.419
+    }, 
     "enacted": {
       "bg": 87, 
       "temp": "absolute", 
-      "missing": [
-        "duration", 
-        "rate"
-      ], 
-      "timestamp": "2016-07-28T14:56:31.000Z", 
-      "snoozeBG": 87, 
-      "reason": "BG 87<90, but 22m left and 0 ~ req 0U/hr: no action required", 
-      "eventualBG": 87, 
-      "error": "missing required input fields", 
-      "input": {
-        "bg": 87, 
-        "temp": "absolute", 
-        "snoozeBG": 87, 
-        "reason": "BG 87<90, but 22m left and 0 ~ req 0U/hr: no action required", 
-        "eventualBG": 87, 
-        "mealAssist": "Off: Carbs: undefined Boluses: undefined ISF: 80, Target: 130 Deviation: -28 BGI: 0.68", 
-        "tick": "+0"
-      }, 
-      "mealAssist": "Off: Carbs: undefined Boluses: undefined ISF: 80, Target: 130 Deviation: -28 BGI: 0.68", 
-      "tick": "+0"
+      "snoozeBG": 115, 
+      "recieved": true, 
+      "reason": "BG 87<90", 
+      "rate": 0, 
+      "eventualBG": 115, 
+      "timestamp": "2016-07-28T15:06:47.000Z", 
+      "duration": 30, 
+      "mealAssist": "Off: Carbs: undefined Boluses: undefined ISF: 80, Target: 130 Deviation: -6 BGI: 0.96", 
+      "tick": -1
     }
   }
 }
