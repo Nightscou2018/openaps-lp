@@ -26,8 +26,8 @@
   {
     "programmed": 0.5, 
     "_type": "Bolus", 
-    "_description": "Bolus 2016-07-28T09:42:29 head[8], body[0] op[0x01]", 
-    "timestamp": "2016-07-28T09:42:29", 
+    "_description": "Bolus 2016-07-28T09:43:39 head[8], body[0] op[0x01]", 
+    "timestamp": "2016-07-28T09:43:39", 
     "_body": "", 
     "appended": [
       {
@@ -44,12 +44,12 @@
         "_date": ""
       }
     ], 
-    "_head": "0100140000000a01", 
-    "amount": 0.0, 
+    "_head": "0100140014000a01", 
+    "amount": 0.5, 
     "unabsorbed": 0.25, 
     "duration": 30, 
     "type": "square", 
-    "_date": "5deaa91c10"
+    "_date": "67eba91c10"
   }, 
   {
     "_type": "BolusWizard", 
