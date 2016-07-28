@@ -1,5 +1,80 @@
 [
   {
+    "programmed": 0.9, 
+    "_type": "Bolus", 
+    "_description": "Bolus 2016-07-28T15:23:12 head[8], body[0] op[0x01]", 
+    "timestamp": "2016-07-28T15:23:12", 
+    "_body": "", 
+    "appended": [
+      {
+        "_type": "UnabsorbedInsulinBolus", 
+        "_description": "UnabsorbedInsulinBolus unknown head[20], body[0] op[0x5c]", 
+        "data": [
+          {
+            "amount": 0.1, 
+            "age": 107
+          }, 
+          {
+            "amount": 0.125, 
+            "age": 317
+          }, 
+          {
+            "amount": 0.175, 
+            "age": 327
+          }, 
+          {
+            "amount": 0.15, 
+            "age": 337
+          }, 
+          {
+            "amount": 0.95, 
+            "age": 347
+          }, 
+          {
+            "amount": 0.3, 
+            "age": 417
+          }
+        ], 
+        "_body": "", 
+        "_head": "5c14046b04053d14074714065114265b140ca114", 
+        "_date": ""
+      }
+    ], 
+    "_head": "0100240024000200", 
+    "amount": 0.9, 
+    "unabsorbed": 0.05, 
+    "duration": 0, 
+    "type": "normal", 
+    "_date": "4cd74f1c10"
+  }, 
+  {
+    "_type": "BolusWizard", 
+    "bg": 141, 
+    "bg_target_high": 130, 
+    "_description": "BolusWizard 2016-07-28T15:23:12 head[2], body[15] op[0x5b]", 
+    "timestamp": "2016-07-28T15:23:12", 
+    "_body": "0a5000785082050021000002002482", 
+    "_head": "5b8d", 
+    "unabsorbed_insulin_total": 0.05, 
+    "correction_estimate": 0.125, 
+    "_date": "4cd70f1c10", 
+    "bolus_estimate": 0.9, 
+    "bg_target_low": 130, 
+    "carb_ratio": 12.0, 
+    "food_estimate": 0.825, 
+    "carb_input": 10, 
+    "sensitivity": 80
+  }, 
+  {
+    "_type": "CalBGForPH", 
+    "_description": "CalBGForPH 2016-07-28T15:22:47 head[2], body[0] op[0x0a]", 
+    "timestamp": "2016-07-28T15:22:47", 
+    "_body": "", 
+    "_head": "0a8d", 
+    "amount": 141, 
+    "_date": "6fd62f1c10"
+  }, 
+  {
     "_type": "TempBasalDuration", 
     "duration (min)": 30, 
     "_description": "TempBasalDuration 2016-07-28T15:21:07 head[2], body[0] op[0x16]", 
@@ -707,16 +782,5 @@
     "_head": "3314", 
     "rate": 0.5, 
     "_date": "50e9075c10"
-  }, 
-  {
-    "_type": "BasalProfileStart", 
-    "offset": 10800000, 
-    "_description": "BasalProfileStart 2016-07-28T07:21:39 head[2], body[3] op[0x7b]", 
-    "timestamp": "2016-07-28T07:21:39", 
-    "_body": "061b00", 
-    "profile_index": 1, 
-    "_head": "7b01", 
-    "rate": 0.675, 
-    "_date": "67d5071c10"
   }
 ]
