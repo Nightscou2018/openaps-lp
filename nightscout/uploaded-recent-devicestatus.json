@@ -1,7 +1,7 @@
 [
   {
     "device": "openaps://openaps-lp", 
-    "created_at": "2016-07-29T00:12:21.035Z", 
+    "created_at": "2016-07-29T00:17:23.073Z", 
     "pump": {
       "battery": {
         "status": "normal", 
@@ -9,33 +9,28 @@
       }, 
       "status": {
         "status": "normal", 
-        "timestamp": "2016-07-29T00:11:46.000Z", 
+        "timestamp": "2016-07-29T00:16:48.000Z", 
         "bolusing": false, 
         "suspended": false
       }, 
-      "reservoir": 40.65, 
-      "clock": "2016-07-28T17:10:01"
+      "reservoir": 40.55, 
+      "clock": "2016-07-28T17:15:01"
     }, 
-    "_id": "579a9f6594eecc0b00705331", 
+    "_id": "579aa09394eecc0b00705332", 
     "openaps": {
-      "suggested": {
-        "bg": 140, 
-        "temp": "absolute", 
-        "snoozeBG": 212, 
-        "timestamp": "2016-07-29T00:11:21.000Z", 
-        "reason": "Eventual BG 67<130, bolus snooze: eventual BG range 67-212, temp 1.1 ~ req 1.1U/hr", 
-        "eventualBG": 67, 
-        "mealAssist": "Off: Carbs: undefined Boluses: undefined ISF: 80, Target: 130 Deviation: -15 BGI: -0.76", 
-        "tick": -2
-      }, 
+      "suggested": [
+        {
+          "msg": "BG data is too old, or clock set incorrectly Thu Jul 28 2016 17:03:46 GMT-0700 (PDT) vs Thu Jul 28 2016 17:16:22 GMT-0700 (PDT)"
+        }
+      ], 
       "iob": {
         "netbasalinsulin": -0.65, 
-        "timestamp": "2016-07-29T00:11:19.000Z", 
-        "activity": 0.0019, 
-        "basaliob": -0.627, 
+        "timestamp": "2016-07-29T00:16:21.000Z", 
+        "activity": 0.0022, 
+        "basaliob": -0.619, 
         "hightempinsulin": 0, 
-        "bolussnooze": 1.207, 
-        "iob": 0.72
+        "bolussnooze": 1.134, 
+        "iob": 0.709
       }, 
       "enacted": {
         "bg": 140, 
