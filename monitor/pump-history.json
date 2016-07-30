@@ -1,5 +1,27 @@
 [
   {
+    "_type": "Prime", 
+    "_description": "Prime 2016-07-30T15:08:21 head[5], body[0] op[0x03]", 
+    "timestamp": "2016-07-30T15:08:21-07:00", 
+    "_body": "", 
+    "_head": "0300030003", 
+    "amount": 0.3, 
+    "fixed": 0.3, 
+    "type": "fixed", 
+    "_date": "55c80f1e10"
+  }, 
+  {
+    "_type": "Prime", 
+    "_description": "Prime 2016-07-30T15:07:19 head[5], body[0] op[0x03]", 
+    "timestamp": "2016-07-30T15:07:19-07:00", 
+    "_body": "", 
+    "_head": "0300000000", 
+    "amount": 0.0, 
+    "fixed": 0.0, 
+    "type": "manual", 
+    "_date": "53c72f1e10"
+  }, 
+  {
     "_type": "Rewind", 
     "_description": "Rewind 2016-07-30T15:05:19 head[2], body[0] op[0x21]", 
     "timestamp": "2016-07-30T15:05:19-07:00", 
