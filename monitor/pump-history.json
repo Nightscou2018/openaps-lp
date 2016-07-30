@@ -1,10 +1,9 @@
 [
   {
-    "_type": "BolusWizard", 
-    "bg": 109, 
-    "_description": "BolusWizard 2016-07-29T20:35:50 head[2], body[15] op[0x5b]", 
+    "_type": "Bolus", 
+    "_description": "Bolus 2016-07-29T20:35:50 head[8], body[0] op[0x01]", 
     "timestamp": "2016-07-29T20:35:50-07:00", 
-    "_body": "0b5000785082f60024f80000001a82", 
+    "_body": "", 
     "appended": [
       {
         "_type": "UnabsorbedInsulinBolus", 
@@ -18,7 +17,23 @@
           }
         ], 
         "_date": ""
-      }, 
+      }
+    ], 
+    "programmed": 0.65, 
+    "duration": 0, 
+    "amount": 0.65, 
+    "unabsorbed": 0.0, 
+    "_head": "01001a001a000000", 
+    "type": "normal", 
+    "_date": "72e3541d10"
+  }, 
+  {
+    "_type": "BolusWizard", 
+    "bg": 109, 
+    "_description": "BolusWizard 2016-07-29T20:35:50 head[2], body[15] op[0x5b]", 
+    "timestamp": "2016-07-29T20:35:50-07:00", 
+    "_body": "0b5000785082f60024f80000001a82", 
+    "appended": [
       {
         "_type": "UnabsorbedInsulinBolus", 
         "_description": "UnabsorbedInsulinBolus unknown head[5], body[0] op[0x5c]", 
