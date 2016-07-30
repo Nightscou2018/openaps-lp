@@ -1,5 +1,21 @@
 [
   {
+    "_type": "ChangeAudioBolus", 
+    "_description": "ChangeAudioBolus 2016-07-30T09:53:49 head[2], body[0] op[0x5f]", 
+    "timestamp": "2016-07-30T09:53:49-07:00", 
+    "_body": "", 
+    "_head": "5f04", 
+    "_date": "71f5091e10"
+  }, 
+  {
+    "_type": "questionable5e", 
+    "_description": "questionable5e 2016-07-30T09:53:35 head[2], body[0] op[0x5e]", 
+    "timestamp": "2016-07-30T09:53:35-07:00", 
+    "_body": "", 
+    "_head": "5e00", 
+    "_date": "63f5091e10"
+  }, 
+  {
     "_type": "TempBasalDuration", 
     "_description": "TempBasalDuration 2016-07-30T09:51:06 head[2], body[0] op[0x16]", 
     "timestamp": "2016-07-30T09:51:06-07:00", 
