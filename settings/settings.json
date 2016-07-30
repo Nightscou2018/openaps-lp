@@ -8,8 +8,8 @@
   }, 
   "low_reservoir_warn_type": 1, 
   "insulinConcentration": 50, 
-  "audio_bolus_enable": true, 
-  "variable_bolus_enable": true, 
+  "audio_bolus_enable": false, 
+  "variable_bolus_enable": false, 
   "alarm": {
     "volume": 2, 
     "mode": 2
@@ -19,7 +19,7 @@
   "block_enable": false, 
   "selected_pattern": 0, 
   "auto_off_duration_hrs": 12, 
-  "audio_bolus_size": 0.1, 
+  "audio_bolus_size": 0, 
   "timeformat": 160, 
   "paradigm_enabled": 1, 
   "maxBolus": 5.0, 
