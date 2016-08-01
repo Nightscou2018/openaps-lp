@@ -3,16 +3,16 @@
   "pump": {
     "battery": {
       "status": "normal", 
-      "voltage": 1.24
+      "voltage": 1.2
     }, 
     "status": {
       "status": "normal", 
-      "timestamp": "2016-07-31T06:11:07.000Z", 
+      "timestamp": "2016-08-01T18:46:31.000Z", 
       "bolusing": false, 
       "suspended": false
     }, 
-    "reservoir": 89.6, 
-    "clock": "2016-07-30T23:10:14"
+    "reservoir": 55.5, 
+    "clock": "2016-08-01T11:45:36"
   }, 
   "openaps": {
     "suggested": [
@@ -22,7 +22,7 @@
     ], 
     "iob": {
       "netbasalinsulin": -0.05, 
-      "timestamp": "2016-07-31T06:11:37.000Z", 
+      "timestamp": "2016-08-01T18:39:52.000Z", 
       "activity": 0.0047, 
       "basaliob": 0.125, 
       "hightempinsulin": 0.4, 
@@ -38,7 +38,7 @@
       "bg": 101, 
       "temp": "absolute", 
       "snoozeBG": 71, 
-      "timestamp": "2016-07-30T22:06:31.000Z", 
+      "timestamp": "2016-08-01T18:39:52.000Z", 
       "reason": "Eventual BG 71<130, setting -2.15U/hr", 
       "rate": 0.8, 
       "eventualBG": 71, 
