@@ -1,7 +1,7 @@
 [
   {
     "device": "openaps://openaps-lp", 
-    "created_at": "2016-08-01T21:42:11.112Z", 
+    "created_at": "2016-08-01T21:47:13.186Z", 
     "pump": {
       "battery": {
         "status": "normal", 
@@ -9,14 +9,14 @@
       }, 
       "status": {
         "status": "normal", 
-        "timestamp": "2016-08-01T21:40:52.000Z", 
+        "timestamp": "2016-08-01T21:45:53.000Z", 
         "bolusing": false, 
         "suspended": false
       }, 
-      "reservoir": 54.225, 
-      "clock": "2016-08-01T14:39:57"
+      "reservoir": 52.975, 
+      "clock": "2016-08-01T14:44:58"
     }, 
-    "_id": "579fc2336d390f0b0033f477", 
+    "_id": "579fc3616d390f0b0033f478", 
     "openaps": {
       "enacted": {
         "bg": 94, 
