@@ -1,5 +1,47 @@
 [
   {
+    "_type": "BolusWizard", 
+    "bg": 191, 
+    "bg_target_high": 130, 
+    "_description": "BolusWizard 2016-08-02T00:25:21 head[2], body[15] op[0x5b]", 
+    "timestamp": "2016-08-02T00:25:21", 
+    "_body": "0450007850821e000d000028000d82", 
+    "_head": "5bbf", 
+    "unabsorbed_insulin_total": 1.0, 
+    "correction_estimate": 0.75, 
+    "_date": "9519000210", 
+    "bolus_estimate": 0.325, 
+    "appended": [
+      {
+        "_type": "UnabsorbedInsulinBolus", 
+        "_description": "UnabsorbedInsulinBolus unknown head[5], body[0] op[0x5c]", 
+        "data": [
+          {
+            "amount": 1.4, 
+            "age": 79
+          }
+        ], 
+        "_body": "", 
+        "_head": "5c05384f04", 
+        "_date": ""
+      }
+    ], 
+    "bg_target_low": 130, 
+    "carb_ratio": 12.0, 
+    "food_estimate": 0.325, 
+    "carb_input": 4, 
+    "sensitivity": 80
+  }, 
+  {
+    "_type": "CalBGForPH", 
+    "_description": "CalBGForPH 2016-08-02T00:24:24 head[2], body[0] op[0x0a]", 
+    "timestamp": "2016-08-02T00:24:24", 
+    "_body": "", 
+    "_head": "0abf", 
+    "amount": 191, 
+    "_date": "9818200210"
+  }, 
+  {
     "_type": "TempBasalDuration", 
     "duration (min)": 30, 
     "_description": "TempBasalDuration 2016-08-02T00:06:02 head[2], body[0] op[0x16]", 
@@ -330,41 +372,5 @@
     "_head": "7b02", 
     "rate": 0.8, 
     "_date": "8829100110"
-  }, 
-  {
-    "_type": "TempBasalDuration", 
-    "duration (min)": 30, 
-    "_description": "TempBasalDuration 2016-08-01T16:11:08 head[2], body[0] op[0x16]", 
-    "timestamp": "2016-08-01T16:11:08", 
-    "_body": "", 
-    "_head": "1601", 
-    "_date": "880b104110"
-  }, 
-  {
-    "_type": "TempBasal", 
-    "temp": "absolute", 
-    "_description": "TempBasal 2016-08-01T16:11:08 head[2], body[1] op[0x33]", 
-    "timestamp": "2016-08-01T16:11:08", 
-    "_body": "00", 
-    "_head": "3320", 
-    "rate": 0.8, 
-    "_date": "880b104110"
-  }, 
-  {
-    "_type": "ChangeAudioBolus", 
-    "_description": "ChangeAudioBolus 2016-08-01T16:09:05 head[2], body[0] op[0x5f]", 
-    "timestamp": "2016-08-01T16:09:05", 
-    "_body": "", 
-    "_head": "5f05", 
-    "_date": "8509100110"
-  }, 
-  {
-    "_type": "CalBGForPH", 
-    "_description": "CalBGForPH 2016-08-01T16:07:25 head[2], body[0] op[0x0a]", 
-    "timestamp": "2016-08-01T16:07:25", 
-    "_body": "", 
-    "_head": "0a83", 
-    "amount": 131, 
-    "_date": "9907300110"
   }
 ]
