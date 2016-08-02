@@ -7,26 +7,47 @@
     }, 
     "status": {
       "status": "normal", 
-      "timestamp": "2016-08-02T00:01:49.000Z", 
+      "timestamp": "2016-08-02T00:10:52.000Z", 
       "bolusing": false, 
       "suspended": false
     }, 
-    "reservoir": 49.15, 
-    "clock": "2016-08-01T17:00:54"
+    "reservoir": 49.025, 
+    "clock": "2016-08-01T17:09:57"
   }, 
   "openaps": {
-    "enacted": {
-      "bg": 151, 
+    "suggested": {
+      "bg": 145, 
       "temp": "absolute", 
-      "snoozeBG": 155, 
-      "recieved": true, 
-      "reason": "Eventual BG 110<130, but Delta +3 > Exp. Delta -0.7; setting current basal of 0.8 as temp. Setting neutral temp basal of 0.8U/hr", 
-      "rate": 0.8, 
-      "eventualBG": 110, 
-      "timestamp": "2016-08-01T23:51:33.000Z", 
+      "snoozeBG": 135, 
+      "timestamp": "2016-08-02T00:11:21.000Z", 
+      "rate": 1.1, 
+      "reason": "Eventual BG 135>130 but Avg. Delta -2.00 < Exp. Delta -0.1; setting current basal of 1.1 as temp. Setting neutral temp basal of 1.1U/hr", 
+      "eventualBG": 135, 
       "duration": 30, 
-      "mealAssist": "Off: Carbs: undefined Boluses: undefined ISF: 80, Target: 130 Deviation: 7 BGI: -1.12", 
-      "tick": "+3"
+      "mealAssist": "Off: Carbs: undefined Boluses: undefined ISF: 80, Target: 130 Deviation: -10 BGI: 0", 
+      "tick": -2
+    }, 
+    "iob": {
+      "netbasalinsulin": 0, 
+      "timestamp": "2016-08-02T00:11:20.000Z", 
+      "activity": 0, 
+      "basaliob": 0, 
+      "hightempinsulin": 0, 
+      "bolussnooze": 0, 
+      "iob": 0
+    }, 
+    "enacted": {
+      "bg": 145, 
+      "temp": "absolute", 
+      "snoozeBG": 135, 
+      "recieved": true, 
+      "reason": "Eventual BG 135>130 but Avg. Delta -2.00 < Exp. Delta -0.1; setting current basal of 1.1 as temp. Setting neutral temp basal of 1.1U/hr", 
+      "rate": 1.1, 
+      "eventualBG": 135, 
+      "timestamp": "2016-08-02T00:11:31.000Z", 
+      "duration": 30, 
+      "mealAssist": "Off: Carbs: undefined Boluses: undefined ISF: 80, Target: 130 Deviation: -10 BGI: 0", 
+      "tick": -2
     }
   }
 }
