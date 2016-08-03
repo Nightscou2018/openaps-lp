@@ -15,7 +15,7 @@ logger -t do-loop-start "OPENAPS-LP LOOP START"
 
 echo do-loop-new.sh Testing git corruption ...
 
-if oref0 fix-git-corruption; then
+if oref0 fix-git-corruption 2>&1 | logger -t do-loop-start; then
 
         until mm-stick warmup
         do
