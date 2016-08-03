@@ -1,9 +1,17 @@
 SHELL=/bin/bash
 PATH=/home/pi/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/local/games:/usr/games
 
+START=`date +%s`
+
 function error_exit
 {
-        echo "$1" 1>&2
+	END=`date +%s`
+	ELAPSED=$(( $END - $START ))
+
+	echo "$1" 1>&2
+	logger -t do-loop "$1"
+	logger -t do-loop-end "OPENAPS-LP LOOP END ($ELAPSED seconds)"
+
         exit 1
 }
 
@@ -26,3 +34,8 @@ if oref0 fix-git-corruption 2>&1 > >(logger -t do-loop-start); then
 	{ openaps monitor-pump-history|| error_exit "LOOP FAIL"; } 2>&1 > >(logger -t do-loop-status)
 	{ openaps report-nightscout || error_exit "LOOP FAIL"; } 2>&1 > >(logger -t do-loop-status)
 fi
+
+END=`date +%s`
+ELAPSED=$(( $END - $START ))
+
+logger -t do-loop-end "OPENAPS-LP LOOP END ($ELAPSED seconds)"
