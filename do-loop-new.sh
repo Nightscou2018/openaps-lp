@@ -20,9 +20,9 @@ if oref0 fix-git-corruption 2>&1 > >(logger -t do-loop-start); then
         done
 
         { openaps gather-clean-data || error_exit "LOOP FAIL"; } 2>&1 > >(logger -t do-loop-gather)
-        openaps do-oref0 || error_exit "LOOP FAIL" 2>&1 | logger -t do-loop-predict
-        openaps enact-oref0 || error_exit "LOOP FAIL" 2>&1 | logger -t do-loop-enact
-        openaps get-basal-status || error_exit "LOOP FAIL" 2>&1 | logger -t do-loop-status
-	openaps monitor-pump-history|| error_exit "LOOP FAIL" 2>&1 | logger -t do-loop-status
-	openaps report-nightscout || error_exit "LOOP FAIL" 2>&1 | logger -t do-loop-status
+        { openaps do-oref0 || error_exit "LOOP FAIL"; } 2>&1 > >(logger -t do-loop-predict)
+        { openaps enact-oref0 || error_exit "LOOP FAIL"; } 2>&1 > >(logger -t do-loop-enact)
+        { openaps get-basal-status || error_exit "LOOP FAIL"; } 2>&1 > >(logger -t do-loop-status)
+	{ openaps monitor-pump-history|| error_exit "LOOP FAIL"; } 2>&1 > >(logger -t do-loop-status)
+	{ openaps report-nightscout || error_exit "LOOP FAIL"; } 2>&1 > >(logger -t do-loop-status)
 fi
