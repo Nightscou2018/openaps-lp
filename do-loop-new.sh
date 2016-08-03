@@ -1,6 +1,12 @@
 SHELL=/bin/bash
 PATH=/home/pi/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/local/games:/usr/games
 
+function error_exit
+{
+        echo "$1" 1>&2
+        exit 1
+}
+
 echo do-loop-new.sh Started
 
 cd /home/pi/openaps-lp
@@ -16,10 +22,10 @@ if oref0 fix-git-corruption; then
                 sleep 5
         done
 
-        (openaps preflight || exit 99) 2>&1 | logger -t do-loop-preflight
-        openaps gather-clean-data 2>&1 | logger -t do-loop-gather
-        openaps do-oref0 2>&1 | logger -t do-loop-predict
-        openaps enact-oref0 2>&1 | logger -t do-loop-enact
-        (openaps get-basal-status && openaps monitor-pump-history && openaps report-nightscout) 2>&1 | logger -t do-loop-status
+        (openaps preflight || error_exit "LOOP FAIL") 2>&1 | logger -t do-loop-preflight
+        (openaps gather-clean-data || error_exit "LOOP FAIL") 2>&1 | logger -t do-loop-gather
+        (openaps do-oref0 || error_exit "LOOP FAIL") 2>&1 | logger -t do-loop-predict
+        (openaps enact-oref0 || error_exit "LOOP FAIL") 2>&1 | logger -t do-loop-enact
+        ((openaps get-basal-status && openaps monitor-pump-history && openaps report-nightscout) || error_exit "LOOP FAIL") 2>&1 | logger -t do-loop-status
 
 fi
