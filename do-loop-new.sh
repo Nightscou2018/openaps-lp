@@ -37,4 +37,4 @@ fi
 END=`date +%s`
 ELAPSED=$(( $END - $START ))
 
-logger -t do-loop-end "OPENAPS-LP LOOP END ($ELAPSED seconds)"
+logger -t do-loop-end "OPENAPS-LP LOOP SUCCESS ($ELAPSED seconds)"
