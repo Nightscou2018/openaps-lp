@@ -1,3 +1,4 @@
+#!/bin/bash
 SHELL=/bin/bash
 PATH=/home/pi/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/local/games:/usr/games
 
@@ -10,7 +11,7 @@ function error_exit
 
 	echo "$1" 1>&2
 	logger -t do-loop "$1"
-	logger -t do-loop-end "OPENAPS-LP LOOP END ($ELAPSED seconds)"
+	logger -t do-loop-end "OPENAPS-LP LOOP ERROR ($ELAPSED seconds)"
 
         exit 1
 }
