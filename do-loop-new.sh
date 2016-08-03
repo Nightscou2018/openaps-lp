@@ -22,10 +22,10 @@ if oref0 fix-git-corruption 2>&1 | logger -t do-loop-start; then
                 sleep 5
         done
 
-        (openaps preflight || error_exit "LOOP FAIL") 2>&1 | logger -t do-loop-preflight
-        (openaps gather-clean-data || error_exit "LOOP FAIL") 2>&1 | logger -t do-loop-gather
-        (openaps do-oref0 || error_exit "LOOP FAIL") 2>&1 | logger -t do-loop-predict
-        (openaps enact-oref0 || error_exit "LOOP FAIL") 2>&1 | logger -t do-loop-enact
-        ((openaps get-basal-status && openaps monitor-pump-history && openaps report-nightscout) || error_exit "LOOP FAIL") 2>&1 | logger -t do-loop-status
+        openaps preflight || error_exit "LOOP FAIL" 2>&1 | logger -t do-loop-preflight
+        openaps gather-clean-data || error_exit "LOOP FAIL" 2>&1 | logger -t do-loop-gather
+        openaps do-oref0 || error_exit "LOOP FAIL" 2>&1 | logger -t do-loop-predict
+        openaps enact-oref0 || error_exit "LOOP FAIL" 2>&1 | logger -t do-loop-enact
+        openaps get-basal-status && openaps monitor-pump-history && openaps report-nightscout || error_exit "LOOP FAIL" 2>&1 | logger -t do-loop-status
 
 fi
