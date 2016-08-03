@@ -7,23 +7,19 @@ function error_exit
         exit 1
 }
 
-echo do-loop-new.sh Started
-
 cd /home/pi/openaps-lp
 
 logger -t do-loop-start "OPENAPS-LP LOOP START"
 
-echo do-loop-new.sh Testing git corruption ...
+if oref0 fix-git-corruption 2>&1 > >(logger -t do-loop-start); then
 
-if oref0 fix-git-corruption 2>&1 | logger -t do-loop-start; then
-
-        until openaps preflight 2>&1 | logger -t do-loop-start;
+        until openaps preflight 2>&1 > >(logger -t do-loop-start);
         do
                 sleep 10
 		logger -t do-loop-start "Waiting (openaps preflight failed)"
         done
 
-        openaps gather-clean-data || error_exit "LOOP FAIL" 2>&1 | logger -t do-loop-gather
+        openaps gather-clean-data || error_exit "LOOP FAIL" 2>&1 > >(logger -t do-loop-gather)
         openaps do-oref0 || error_exit "LOOP FAIL" 2>&1 | logger -t do-loop-predict
         openaps enact-oref0 || error_exit "LOOP FAIL" 2>&1 | logger -t do-loop-enact
         openaps get-basal-status || error_exit "LOOP FAIL" 2>&1 | logger -t do-loop-status
