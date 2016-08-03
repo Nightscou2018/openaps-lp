@@ -1,5 +1,13 @@
 [
   {
+    "_type": "Rewind", 
+    "_description": "Rewind 2016-08-03T14:20:45 head[2], body[0] op[0x21]", 
+    "timestamp": "2016-08-03T14:20:45", 
+    "_body": "", 
+    "_head": "2100", 
+    "_date": "ad140e0310"
+  }, 
+  {
     "_type": "TempBasalDuration", 
     "duration (min)": 30, 
     "_description": "TempBasalDuration 2016-08-03T14:16:49 head[2], body[0] op[0x16]", 
