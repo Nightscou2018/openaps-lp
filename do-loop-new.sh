@@ -22,16 +22,16 @@ logger -t do-loop-start "OPENAPS-LP LOOP START"
 
 if oref0 fix-git-corruption 2>&1 > >(logger -t do-loop-start); then
 
-        until openaps preflight 2>&1 > >(logger -t do-loop-start);
+        until { openaps preflight && openaps preflight-ns; } 2>&1 > >(logger -t do-loop-start);
         do
                 sleep 10
 		logger -t do-loop-start "Waiting (openaps preflight failed)"
         done
 
-        { openaps gather-clean-data || error_exit "LOOP FAIL"; } 2>&1 > >(logger -t do-loop-gather)
-        { openaps do-oref0 || error_exit "LOOP FAIL"; } 2>&1 > >(logger -t do-loop-predict)
-        { openaps enact-oref0 || error_exit "LOOP FAIL"; } 2>&1 > >(logger -t do-loop-enact)
-	{ openaps report-nightscout || error_exit "LOOP FAIL"; } 2>&1 > >(logger -t do-loop-status)
+        { openaps gather-clean-data || error_exit "LOOP FAIL gather-clean-data"; } 2>&1 > >(logger -t do-loop-gather)
+        { openaps do-oref0 || error_exit "LOOP FAIL do-oref0"; } 2>&1 > >(logger -t do-loop-predict)
+        { openaps enact-oref0 || error_exit "LOOP FAIL enact-oref0"; } 2>&1 > >(logger -t do-loop-enact)
+	{ openaps report-nightscout || error_exit "LOOP FAIL report-nightscout"; } 2>&1 > >(logger -t do-loop-status)
 fi
 
 END=`date +%s`
