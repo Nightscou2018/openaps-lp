@@ -17,7 +17,7 @@ echo do-loop-new.sh Testing git corruption ...
 
 if oref0 fix-git-corruption 2>&1 | logger -t do-loop-start; then
 
-        until mm-stick warmup && openaps preflight-ns && openaps preflight
+        until {mm-stick warmup && openaps preflight} 2>&1 | logger -t do-loop-start;
         do
                 sleep 10
 		logger -t do-loop-start "Waiting (openaps preflight failed)"
@@ -26,6 +26,6 @@ if oref0 fix-git-corruption 2>&1 | logger -t do-loop-start; then
         openaps gather-clean-data || error_exit "LOOP FAIL" 2>&1 | logger -t do-loop-gather
         openaps do-oref0 || error_exit "LOOP FAIL" 2>&1 | logger -t do-loop-predict
         openaps enact-oref0 || error_exit "LOOP FAIL" 2>&1 | logger -t do-loop-enact
-        openaps get-basal-status && openaps monitor-pump-history && openaps report-nightscout || error_exit "LOOP FAIL" 2>&1 | logger -t do-loop-status
+        {openaps get-basal-status && openaps monitor-pump-history && openaps report-nightscout || error_exit "LOOP FAIL"} 2>&1 | logger -t do-loop-status
 
 fi
