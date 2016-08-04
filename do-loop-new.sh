@@ -18,10 +18,6 @@ cd /home/pi/openaps-lp
 
 logger -t do-loop-start "OPENAPS-LP LOOP START"
 
-if ! grep -q max settings/settings.json; then
-	{ openaps get-settings || error_exit "get-settings"; } 2>&1 > >(logger -t do-loop-start)
-fi
-
 if oref0 fix-git-corruption; then # 2>&1 > >(logger -t do-loop-start)
 	logger -t do-loop-start "PREFLIGHT"
 	preflight_timeout=$((SECONDS+120))
