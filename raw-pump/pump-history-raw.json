@@ -1,5 +1,21 @@
 [
   {
+    "_type": "ClearAlarm", 
+    "_description": "ClearAlarm 2016-08-04T14:37:32 head[2], body[0] op[0x0c]", 
+    "timestamp": "2016-08-04T14:37:32", 
+    "_body": "", 
+    "_head": "0c06", 
+    "_date": "a0250e0410"
+  }, 
+  {
+    "_type": "AlarmPump", 
+    "_description": "AlarmPump 2016-08-04T14:36:00 head[4], body[0] op[0x06]", 
+    "timestamp": "2016-08-04T14:36:00", 
+    "_body": "", 
+    "_head": "060608d9", 
+    "_date": "80244ea410"
+  }, 
+  {
     "_type": "TempBasalDuration", 
     "duration (min)": 30, 
     "_description": "TempBasalDuration 2016-08-04T14:25:58 head[2], body[0] op[0x16]", 
