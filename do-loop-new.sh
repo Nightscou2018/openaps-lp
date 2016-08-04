@@ -22,7 +22,8 @@ logger -t do-loop-start "OPENAPS-LP LOOP START"
 
 if oref0 fix-git-corruption 2> >(logger -t do-loop-start); then
 
-        until openaps preflight 2>&1 > >(logger -t do-loop-start);
+	logger -t do-loop-start "PREFLIGHT"
+        until openaps preflight;
         do
                 sleep 10
 		logger -t do-loop-start "Waiting (openaps preflight failed)"
