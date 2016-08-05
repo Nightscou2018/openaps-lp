@@ -26,7 +26,7 @@ if ! oref0 fix-git-corruption; then
 else
 	logger -t do-loop-start "PREFLIGHT"
 	preflight_timeout=$((SECONDS+120))
-        until openaps preflight; # 2>&1 > >(logger -t do-loop-start)
+        until openaps preflight;
         do
                 if [ $SECONDS -gt $preflight_timeout ]; then
 			error_exit "PREFLIGHT TIMEOUT ERROR"
