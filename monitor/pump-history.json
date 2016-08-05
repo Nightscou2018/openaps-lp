@@ -1,5 +1,23 @@
 [
   {
+    "_type": "Sara6E", 
+    "_description": "Sara6E 2016-08-05T00:00:00 head[1], body[49] op[0x6e]", 
+    "timestamp": "2016-08-05T00:00:00-07:00", 
+    "_body": "05007a688b05000002a9026c5b003d0900170039000400000000020100000000000000000000005e920000000000000000", 
+    "_head": "6e", 
+    "valid_date": "2016-08-04", 
+    "_date": "8410"
+  }, 
+  {
+    "_type": "ResultDailyTotal", 
+    "_description": "ResultDailyTotal 2016-08-05T00:00:00 head[5], body[3] op[0x07]", 
+    "timestamp": "2016-08-05T00:00:00-07:00", 
+    "_body": "000000", 
+    "_head": "07000002a9", 
+    "valid_date": "2016-08-04", 
+    "_date": "8410"
+  }, 
+  {
     "_type": "Bolus", 
     "_description": "Bolus 2016-08-04T23:49:44 head[8], body[0] op[0x01]", 
     "timestamp": "2016-08-04T23:49:44-07:00", 
