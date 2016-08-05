@@ -42,7 +42,7 @@ if oref0 fix-git-corruption; then # 2>&1 > >(logger -t do-loop-start)
         { openaps enact-oref0 || error_exit "enact-oref0"; } 2>&1 > >(logger -t do-loop-enact)
 
 	# Update nightscout
-	{ openaps monitor-pump-history && openaps get-basal-status || error_exit "get-pump-updates"; } 2>&1 > >(logger -t do-loop-status)
+	{ openaps get-basal-status || error_exit "get-pump-updates"; } 2>&1 > >(logger -t do-loop-status)
 	{ openaps upload-treatments || error_exit "upload-treatments"; } 2>&1 > >(logger -t do-loop-status)
 	{ openaps upload-status || error_exit "upload-status"; } 2>&1 > >(logger -t do-loop-status)
 fi
