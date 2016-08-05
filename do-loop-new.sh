@@ -18,7 +18,12 @@ cd /home/pi/openaps-lp
 
 logger -t do-loop-start "OPENAPS-LP LOOP START"
 
-if oref0 fix-git-corruption; then # 2>&1 > >(logger -t do-loop-start)
+if ! oref0 fix-git-corruption; then
+	logger -t do-loop-start "GIT CORRUPTION FOUND - Attempting fix"
+	if ! ./scripts/git-reclone.sh; then
+		error_exit "GIT RECLONE FAIL"
+	fi
+else
 	logger -t do-loop-start "PREFLIGHT"
 	preflight_timeout=$((SECONDS+120))
         until openaps preflight; # 2>&1 > >(logger -t do-loop-start)
