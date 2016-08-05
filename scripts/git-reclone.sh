@@ -13,12 +13,13 @@ if [ $? -ne 0 ]; then
         exit 1
 fi
 
-CORRUPTDIR ="/home/pi/corrupt_repos"
-NEWDIR = "$(CORRUPTDIR)/openaps-lp_$$"
+CORRUPTDIR="/home/pi/corrupt_repos"
+BACKUPDIR="$(CORRUPTDIR)/openaps-lp_$$"
 
-rm -rf $NEWDIR |& logger -t git-reclone
-mkdir $NEWDIR |& logger -t git-reclone
-mv openaps-lp/* $NEWDIR  |& logger -t git-reclone
+mkdir $CORRUPTDIR |& logger -t git-reclone
+rm -rf $BACKUPDIR |& logger -t git-reclone
+mkdir $BACKUPDIR |& logger -t git-reclone
+mv openaps-lp/* $BACKUPDIR  |& logger -t git-reclone
 
 rm -rf openaps-lp |& logger -t git-reclone
 if [ $? -ne 0 ]; then
