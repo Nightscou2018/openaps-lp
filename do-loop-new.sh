@@ -42,7 +42,7 @@ else
 	fi
 
         # Main loop
-	{ openaps gather-clean-data || error_exit "gather-clean-data"; } 2>&1 > >(logger -t do-loop-gather)
+	openaps gather-clean-data |& logger -t do-loop-gather
         { openaps do-oref0 || error_exit "do-oref0"; } 2>&1 > >(logger -t do-loop-predict)
         { openaps enact-oref0 || error_exit "enact-oref0"; } 2>&1 > >(logger -t do-loop-enact)
 
@@ -54,5 +54,4 @@ fi
 
 END=`date +%s`
 ELAPSED=$(( $END - $START ))
-
 logger -t do-loop-end "OPENAPS-LP LOOP SUCCESS ($ELAPSED seconds)"
